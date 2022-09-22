@@ -1,0 +1,37 @@
+<div class="container-fluid flex-grow-1 " style="background-color: rgb(234, 234, 234);height:500px">
+
+  <div class="container py-5" *ngFor="let a of all">
+    <div class="row py-3">
+
+      <div class="col lg=6" style="margin-left: 30px;">
+        <h6 class="text-uppercase font-weight-bold mb-4" style="font-weight:bolder ; font-size: large;">Contact Us</h6>
+       <p style="color: rgb(153, 58, 116); font-weight: bold;">
+       Name:{{a.name}}<br>
+       Address:{{a.details}}<br>
+       Contact Number :{{a.phonenumber}} <br>
+       Mail Id  :{{a.gmail}}
+
+
+       </p>
+        <ul class="list-inline mt-4">
+          <li class="list-inline-item"><a href="https://twitter.com/explore" target="_blank" title="twitter"><i class="fab  fa-2x fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank" title="facebook"><i class="fab fa-2x fa-facebook-f"></i></a></li>
+          <li class="list-inline-item"><a href="https://instagram.com/" target="_blank" title="instagram"><i class="fab fa-2x fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.youtube.com/" target="_blank" title="pinterest"><i class="fab fa-2x fa-youtube"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.google.com/" target="_blank" title="vimeo"><i class="fab fa-2x fa-google"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  
+  <!-- <hr class="p-0 m-0 b-0"> -->
+
+  <footer class="bg">
+  <div class="bg" >
+    <div class="container text-center" style="width:100%;margin-top: 220px;">
+      <p  style="font-weight: bolder;">&copy; mynka all rights reserved.</p>
+      
+      </div>
+    </div>
+  
+</footer>
+</div>
